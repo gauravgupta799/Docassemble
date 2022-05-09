@@ -1,0 +1,14 @@
+question: What is your favourite bike?
+fields:
+    - Bike: favourite_bike
+---
+question: What is your favourit car?
+fields: 
+  - Car: favourit_car
+---
+mandatory: True
+question: What a coincidence!
+subquestion: |
+    My favourite bike is the ${ favourite_bike }, too!
+buttons: 
+  - Exit: exit

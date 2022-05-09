@@ -1,0 +1,6 @@
+---
+question: Hello, developers
+buttons: 
+    - Exit
+mandatory: True
+---    

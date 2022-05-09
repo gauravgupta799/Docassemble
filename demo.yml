@@ -1,0 +1,7 @@
+question: Fruit-Bowl
+fields: 
+    - What's kind of fruit do you have?: fruit
+---
+  event: final_screen
+  mandatory: True
+  question: You have a ${ fruit }   

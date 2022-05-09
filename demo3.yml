@@ -1,0 +1,62 @@
+
+mandatory: True
+question: |
+  What is your name?
+fields:
+  - First Name: first_name
+  - Last Name: last_name
+section: Contact info
+---
+mandatory: True
+question: |
+  What is your e-mail address?
+fields:
+  - E-mail: email_address
+    datatype: email
+---
+mandatory: True
+question: |
+  What is your gender?
+field: gender
+choices:
+  - Male
+  - Female
+  - Something else
+section: Demographics
+---
+mandatory: True
+question: |
+  What kind of belly button
+  do you have?
+subquestion: |
+  To see what a user would
+  see after returning to
+  the interview after a period
+  of absence, try waiting
+  thirty seconds, then
+  [click into the
+  interview](${ interview_url(local=True) }).
+
+  In addition, there is a similar
+  screen available on the Menu in the
+  upper-right, under "Roadmap."
+field: belly_button
+choices:
+  - Innie
+  - Outie
+---
+mandatory: True
+question: |
+  What is your favorite fruit?
+fields:
+  - Favorite fruit: favorite_fruit
+section: Preferences
+---
+mandatory: True
+question: |
+  What is your favorite vegetable?
+fields:
+  - Favorite vegetable: favorite_vegetable
+---
+buttons:
+  Continue: continue
